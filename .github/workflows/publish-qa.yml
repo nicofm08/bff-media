@@ -4,9 +4,9 @@ env:
   env_file: ".env.qa"
   registry: "ghcr.io"
   user_github: "nicofm08"
-  port_server: 26004
+  port_server: 22004
   port_container: 3000
-  ip_container: 172.22.26.2
+  ip_container: 172.22.22.2
 
 name: Deploy to GitHub Packages
 
