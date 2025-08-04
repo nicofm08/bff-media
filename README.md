@@ -1,2 +1,1 @@
 # bff-media
-bff-media
