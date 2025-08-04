@@ -15,7 +15,7 @@ export class ApiMediaService {
 
   async preasignedUrl(@Body() req: any) {
     try {
-      const apiMediaUrl = this.configService.get('API_MEDIA_URL') + '/media/preasigned-url';
+      const apiMediaUrl = this.configService.get('API_MEDIA_URL') + '/media/get_preasigned_url';
       this.#logger.log(`Redirectiing to ${apiMediaUrl}`);
       const response = await axios.post(
         `${apiMediaUrl}`,
